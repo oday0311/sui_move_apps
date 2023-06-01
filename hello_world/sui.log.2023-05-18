@@ -1,0 +1,7 @@
+2023-05-18T10:01:03.210682Z  INFO sui::client_commands:                              Object ID                              |  Gas Value 
+2023-05-18T10:01:03.211013Z  INFO sui::client_commands: ----------------------------------------------------------------------------------
+2023-05-18T10:01:03.211040Z  INFO sui::client_commands:  0x57d325fcdd11f7836c0982e58ff0766820809f844667060c66ba86b9ac35f8da | 9999993000 
+2023-05-18T10:02:55.980990Z  INFO sui::client_commands:                              Object ID                              |  Gas Value 
+2023-05-18T10:02:55.982100Z  INFO sui::client_commands: ----------------------------------------------------------------------------------
+2023-05-18T10:02:55.982134Z  INFO sui::client_commands:  0x57d325fcdd11f7836c0982e58ff0766820809f844667060c66ba86b9ac35f8da | 9999985000 
+2023-05-18T10:14:38.266431Z  INFO sui::client_commands: 0x25cc3a0425303a54b525722b34fa7a4e045713ca99462c33745735cea0186e78
