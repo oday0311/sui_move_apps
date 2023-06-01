@@ -4,6 +4,8 @@ module hello_world::counter {
     use sui::transfer;
     use sui::object::{Self, UID};
     use sui::tx_context::{Self, TxContext};
+    use std::debug;
+
 
     // Part 2: struct definition
     struct Counter has key {
@@ -26,4 +28,15 @@ module hello_world::counter {
     public entry fun incr(counter: &mut Counter) {
         counter.value = counter.value + 1;
     } 
+    
+    
+    #[test]
+    public fun test_module_init() {
+        let data: vector<u8> = b"hello world";
+        debug::print(&data);
+    }
+
+
 }
+
+

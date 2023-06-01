@@ -88,6 +88,7 @@ module math::ecdsa_k1 {
 
         // Transfer an output data object holding the address to the recipient.
         transfer::public_transfer(addr_object, recipient)
+        
     }
 
     /// Verified the secp256k1 signature using public key and message assuming Keccak was using when 
