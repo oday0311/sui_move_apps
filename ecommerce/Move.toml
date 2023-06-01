@@ -2,8 +2,10 @@
 name = "ecommerce"
 version = "0.0.1"
 
+
 [dependencies]
-Sui = { local = "../../../crates/sui-framework/packages/sui-framework" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
 
 [addresses]
 ecommerce =  "0x0"
