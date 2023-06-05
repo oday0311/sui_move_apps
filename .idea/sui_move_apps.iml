@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="Go" enabled="true" />
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/capy/build" />
+      <excludeFolder url="file://$MODULE_DIR$/defi/build" />
+      <excludeFolder url="file://$MODULE_DIR$/math/build" />
+      <excludeFolder url="file://$MODULE_DIR$/nfts/build" />
+      <excludeFolder url="file://$MODULE_DIR$/games/build" />
+      <excludeFolder url="file://$MODULE_DIR$/utils/build" />
+      <excludeFolder url="file://$MODULE_DIR$/basics/build" />
+      <excludeFolder url="file://$MODULE_DIR$/hello_world/build" />
+      <excludeFolder url="file://$MODULE_DIR$/move_tutorial/build" />
+      <excludeFolder url="file://$MODULE_DIR$/multi_package/dep_package/build" />
+      <excludeFolder url="file://$MODULE_DIR$/multi_package/main_package/build" />
+      <excludeFolder url="file://$MODULE_DIR$/fungible_tokens/build" />
+      <excludeFolder url="file://$MODULE_DIR$/objects_tutorial/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

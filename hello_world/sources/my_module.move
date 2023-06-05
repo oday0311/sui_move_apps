@@ -5,7 +5,7 @@ module hello_world::counter {
     use sui::object::{Self, UID};
     use sui::tx_context::{Self, TxContext};
     use std::debug;
-
+    
 
     // Part 2: struct definition
     struct Counter has key {
@@ -34,9 +34,20 @@ module hello_world::counter {
     public fun test_module_init() {
         let data: vector<u8> = b"hello world";
         debug::print(&data);
+
+        let num = 42;
+        debug::print(&num);
     }
 
 
 }
 
 
+
+
+/* quick compile
+
+sui move test test_module_init --skip-fetch-latest-git-deps
+
+
+*/
