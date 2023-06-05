@@ -5,6 +5,8 @@ module Chess::game {
     use sui::object::{Self, UID};
     use sui::tx_context::{Self, TxContext};
     use std::vector;
+    use std::string;
+    use sui::event;
     //use sui::test_scenario;
 
     const ChessBoardsize: u64 = 20;
@@ -19,6 +21,10 @@ module Chess::game {
     } 
     struct Node has store {
         value: u8
+    }
+
+    struct ChessEvent has copy, drop {
+        name: string::String,
     }
 
 
@@ -110,6 +116,11 @@ module Chess::game {
         game.stepsCount = game.stepsCount + 1;
         if (game.stepsCount == ChessBoardsize * ChessBoardsize) {
             //send event, game board is full.
+            let eventname= b"the chessBoard is full";
+
+             event::emit(ChessEvent{
+                name: string::utf8(eventname),
+             });
             
         } else {
 
